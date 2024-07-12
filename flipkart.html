@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <style>
+    .parent{
+        /* border:2px solid black; */
+        background-color: beige;
+        height:100px;
+        width: 1525px;
+        display: grid;
+        grid-template-columns: 150px 800px auto auto auto ;
+        position: sticky;
+        top: 1px;
+    }
+    .parent>div{
+        /* border:2px solid red; */
+        height: 100px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    input{
+        margin: 30px;
+        height: 40px;
+        width: 800px;
+        background-color: lightblue;
+    }
+    p{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .one{
+        /* border:2px solid black; */
+        height: 150px;
+        display: grid;
+        grid-template-columns: repeat(9, 100px);
+        justify-content: space-evenly;
+    }
+    .one>div{
+        /* border:2px solid red; */
+        height: 150px;
+        width: 95px;
+        margin-left: 60px;
+        /* margin-top: 5px;
+        margin-bottom: 5px; */
+    }
+    #one>div{
+        /* border: 2px solid blue; */
+        width: 75px;
+        height: 60px;
+        margin: 10px;
+
+    }
+    h4{
+        text-align: center;
+    }
+
+    .three{
+        border: 2px solid black;
+        height: 270px;
+        width: 1525px;
+    }
+    /* ......................................................... */
+
+
+    .new{
+        /* border:2px solid black; */
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(6, 250px);
+        /* justify-content:start ; */
+    }
+    .new>div{
+        /* border:2px solid red; */
+        height: 300px;
+        width: 200px;
+       
+       
+    }
+    #oneone>div{
+        /* border: 2px solid blue; */
+        width: 150px;
+        height: 200px;
+        margin: 20px;
+
+    }
+
+    .container1{
+        border: 2px solid black;
+        display: flex;
+        
+    }
+    .container1>div{
+        border: 2px solid red;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div><img src="./flipppp.svg" alt=""></div>
+        <div><input type="search" placeholder="Search for Products,Brands and More"></div>
+        <div><p>Login</p></div>
+        <div><p>Cart</p></div>
+        <div><p>Become a seller</p></div>
+    </div>
+    <!-- .............................................Part one.........................................   -->
+
+
+   
+    <div class="one">
+        <div id="one">
+            <div><img src="./gro.webp" alt=""></div>
+            <h4>Grocery</h4>
+        </div>
+
+        <div id="one">
+            <div><img src="./mobile.webp" alt=""></div>
+            <h4>Mobiles</h4>
+        </div>
+
+        <div id="one">
+            <div><img src="./Fashion new.jpg" alt=""></div>
+            <h4>Fashion</h4>
+        </div>
+
+        <div id="one">
+            <div><img src="./appliances.webp" alt=""></div>
+            <h4>Electronics</h4>
+        </div>
+
+        <div id="one">
+            <div><img src="./home.jpg" alt=""></div>
+            <h4>Home and Furniture</h4>
+        
+        </div>
+
+        <div id="one">
+            <div><img src="./appliances.webp" alt=""></div>
+            <h4>Appliances</h4>
+           
+        </div>
+
+        <div id="one">
+            <div><img src="./Travel.webp" alt=""></div>
+            <h4>Travel</h4>
+          
+        </div>
+
+        <div id="one">
+            <div><img src="./toys.jpg" alt=""></div>
+            <h4>Beauty Toys and More</h4>
+           
+        </div>
+
+        <div id="one">
+            <div><img src="./two wheelers.jpg" alt=""></div>
+            <h4>Two wheelers</h4>
+            
+        </div>
+    </div>
+    <!-- ...........................................................Part Two......................................................  -->
+
+
+    <div class="three">
+        <img src="./add new.webp" alt="">
+
+    </div>
+
+      <!-- ...........................................................Part Three......................................................  -->
+<br>
+<br>
+    
+<h2>Best of Electronics</h2>
+
+<div class="new">
+    <div id="oneone">
+        <div><img src="bluetooth.jpg" alt=""></div>
+        <p>Best truewireless Earphones</p>
+        <h4>Grab Now</h4>
+    </div>
+
+    <div id="oneone">
+        <div><img src="./new blue.jpg" alt=""></div>
+        <p>Best Selling Mobile Speaker</p>
+        <h4>from $100</h4>
+    </div>
+
+    <div id="oneone">
+        <div><img src="./tv 1.jpg" alt=""></div>
+        <p>ViewSonic Television </p>
+        <h4>from $1000</h4>
+    </div>
+
+    <div id="oneone">
+        <div><img src="./monit.jpg" alt=""></div>
+        <p>Monitors</p>
+        <h4>from $800</h4>
+    </div>
+
+    <div id="oneone">
+        <div><img src="./boat.jpg" alt=""></div>
+        <p>Boat Smartwatches</p>
+        <h4>from $200</h4>
+    
+    </div>
+
+    <div id="oneone">
+        <div><img src="./shavers.jpg" alt=""></div>
+        <p>Best of Shavers</p>
+        <h4>from $250</h4>
+       
+    </div>
+</div>
+
+<div class="container1">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+
+    
+</body>
+</html>
